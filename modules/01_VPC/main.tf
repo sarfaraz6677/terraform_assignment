@@ -3,7 +3,7 @@ resource "aws_vpc" "this-vpc" {
   cidr_block = var.cidr_block
   #enable_dns_hostnames = true
 }
-
+ 
 // Create the SUBNETS
 
 resource "aws_subnet" "this_public_subnet" {

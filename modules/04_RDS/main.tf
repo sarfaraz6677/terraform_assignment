@@ -17,4 +17,4 @@ resource "aws_db_instance" "this_rds " {
   username             = var.username
   vpc_security_group_ids = var.rds_sg_ids
   
-}
+} 

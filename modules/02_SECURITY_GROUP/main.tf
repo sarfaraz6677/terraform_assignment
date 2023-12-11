@@ -5,7 +5,8 @@
 resource "aws_security_group" "this_security_group" {
   name = var.sg_name
   vpc_id = var.vpc_id
-}
+} 
+
 resource "aws_security_group_rule" "this_ingress" {
   count= length(var.sg_ports)
   type              = "ingress"

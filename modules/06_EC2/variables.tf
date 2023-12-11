@@ -14,4 +14,4 @@ variable "security_groups_name" {
 }
 variable "subnet_id" {
   type = string
-}
+} 

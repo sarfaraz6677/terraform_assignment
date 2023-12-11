@@ -5,4 +5,4 @@ resource "aws_lb" "test" {
   security_groups    = var.lb_security_groups
   subnets            = var.lb_subnets
   enable_deletion_protection = true
-}
+} 

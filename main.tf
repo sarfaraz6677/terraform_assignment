@@ -5,7 +5,7 @@ module "vpc" {
     private_subnet_cidr = var.private_subnet_cidr
     availability_zone   = var.availability_zone
 }
-
+ 
 
 module "alb_sg" {
     source              = "./modules/02_SECURITY_GROUP/"

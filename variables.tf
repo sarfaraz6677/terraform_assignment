@@ -23,7 +23,7 @@ variable "alb_sg_name" {
 
 variable "alb_sg_ports" {
   type = list(any)
-}
+} 
 
 
 variable "web_sg_name" {

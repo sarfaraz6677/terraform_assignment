@@ -5,7 +5,7 @@ private_subnet_cidr = ["10.0.3.0/24", "10.0.4.0/24"]
 availability_zone = ["ap-south-1a", "ap-south-1b"]
 # 02_ASG
 
-#alb
+#alb 
 alb_sg_name = "alb-security-group"
 alb_sg_ports = ["80","443"]
  #web

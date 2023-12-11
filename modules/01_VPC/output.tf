@@ -8,4 +8,4 @@ output "vpc_public_subnet_ids"{
 
 output "vpc_private_subnet_ids"{
     value = aws_subnet.this_private_subnet[*].id
-}
+} 

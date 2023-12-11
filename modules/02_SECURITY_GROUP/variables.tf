@@ -9,4 +9,4 @@ variable "sg_ports" {
 
 variable "vpc_id" {
      type = string
-}
+} 

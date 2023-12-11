@@ -9,7 +9,7 @@ variable "rds_name" {
 variable "rds_type" {
   type = string
 }
-
+ 
 variable "username" {
   type = string
 }

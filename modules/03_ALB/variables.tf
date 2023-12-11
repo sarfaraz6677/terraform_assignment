@@ -11,6 +11,6 @@ variable "lb_security_groups" {
   type = list(string)
 }
 
-variable "lb_subnets" {
+variable "lb_subnets" { 
   type = list(string)
 }
